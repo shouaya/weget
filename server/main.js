@@ -3,8 +3,8 @@ import { Accounts } from 'meteor/accounts-base';
 import '../imports/api/collection.js';
 import '../imports/api/users'
 
-Accounts.emailTemplates.siteName = "jenkins";
-Accounts.emailTemplates.from = "jenkins@mediax.gr.jp";
+Accounts.emailTemplates.siteName = "weget";
+Accounts.emailTemplates.from = "info@weget.jp";
 Accounts.emailTemplates.resetPassword = {
     subject(user) {
         return "（demo）パスワードリセット";
